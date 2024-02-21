@@ -7,5 +7,10 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+library(tidyverse)
+head(cars)
+ggplot(cars, aes(x = speed, y = dist)) + geom_point()
 ```
+
+
+$x = 2$
